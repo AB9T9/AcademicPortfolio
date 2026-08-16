@@ -1,3 +1,10 @@
 nav {
   background-color: #ced1d9;
 }
+.min-width {
+  width: 80rem;
+}
+
+.max-width {
+  width: 50rem;
+}
