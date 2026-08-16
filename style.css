@@ -33,6 +33,10 @@ body {
   --navbar-bg: #111827;
   --navbar-text: #e5e7eb;
   --navbar-hover: #60a5fa;
+
+  /*for dark icon*/
+  --icon-bg: #ffffff;
+  --make-white: brightness(0) invert(1);
 }
 
 body {
@@ -62,4 +66,8 @@ body {
 
 .navbar .nav-link:hover {
   color: var(--navbar-hover) !important;
+}
+.icon8 {
+  color: var(--icon-bg);
+  filter: var(--make-white);
 }
